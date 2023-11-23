@@ -92,7 +92,7 @@ $conn->close();
     
     <p>Your secret key has been generated and stored.</p>
 
-    <img src="<?php echo $g->getURL('rafaelwendel', 'rafaelwendel.com', $secret); ?>" alt="QR Code">
+    <img src="<?php echo $g->getURL('admin', 'roomBooking.com', $secret); ?>" alt="QR Code">
 
     <p>Scan the QR code with your Google Authenticator app.</p>
 
