@@ -29,5 +29,17 @@ The security featureas implemented are:
 1. Captcha
 2. 2 Factor Authorization
 3. Database Privileges
-4. Encryption using AES
-5. Authorization
+4. Encryption using PHP hashing method
+5. HTTP Authorization
+
+Example users for user login:
+Email: example@mail.com
+Password: example1234
+
+Admin login:
+Username: admin
+Password: admin123
+
+Admin Auth credentials:
+Username: admin
+Password: roomBooking_admin
